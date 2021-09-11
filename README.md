@@ -12,7 +12,7 @@ Desktop
 
 Mobile
 
-<img src="https://user-images.githubusercontent.com/88436030/132945529-ecb800ba-cda5-4311-853d-5a954429b82b.PNG" alt="device" style="width:150px"/>
+<img src="https://user-images.githubusercontent.com/88436030/132945529-ecb800ba-cda5-4311-853d-5a954429b82b.PNG" alt="device" style="width:375px"/>
 
 ## Build with
 
