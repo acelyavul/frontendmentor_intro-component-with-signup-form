@@ -18,7 +18,7 @@ It is to build out this introductory component and get it looking as close to th
 ## Deployment
 
 - Solution URL:
-- Live URL:
+- Live URL: https://acelyavul.github.io/frontendmentor_intro-component-with-signup-form/
 
 ## Installation
 
