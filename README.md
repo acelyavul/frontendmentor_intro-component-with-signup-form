@@ -12,8 +12,7 @@ Desktop
 
 Mobile
 
-![device](https://user-images.githubusercontent.com/88436030/132945504-c4f9680d-cac5-4217-8979-c22389f631ba.PNG)
-
+![device](https://user-images.githubusercontent.com/88436030/132945529-ecb800ba-cda5-4311-853d-5a954429b82b.PNG)
 
 ## Build with
 
