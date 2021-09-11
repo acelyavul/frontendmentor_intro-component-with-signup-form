@@ -4,6 +4,13 @@
 
 It is to build out this introductory component and get it looking as close to the design as possible and view the optimal layout for the site depending on their device's screen size.
 
+## Deployment
+
+Check solution URL to compare with challange!
+
+- Solution URL: https://www.frontendmentor.io/solutions/responsive-layout-using-css-flexbox-reactjs-gKHYLhmFT
+- Live URL: https://acelyavul.github.io/frontendmentor_intro-component-with-signup-form/
+
 ## Demo
 
 Desktop
@@ -21,11 +28,6 @@ Mobile
 - Flexbox
 - ReactJs
 - Responsive Web Design & Mobile 
-
-## Deployment
-
-- Solution URL:
-- Live URL: https://acelyavul.github.io/frontendmentor_intro-component-with-signup-form/
 
 ## Installation
 
