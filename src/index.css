@@ -228,8 +228,8 @@ form p.error-text{
 	}
 }
 
-@media (max-width: 375px) {
+@media (max-width: 415px) {
 	.App {
-		margin: auto;
+		margin: 1rem;
 	}
 }
