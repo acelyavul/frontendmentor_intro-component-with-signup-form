@@ -50,10 +50,8 @@ yarn install
 yarn start
 ```
 
-## Meta
+## Author
 
-Acelya V – acelyavuluvan@gmail.com
+- Frontend Mentor - [@acelyavul](https://www.frontendmentor.io/profile/acelyavul)
+- Twitter - [@acelya_vul](https://twitter.com/acelya_vul)
 
-Distributed under the MIT license. See `LICENSE` for more information.
-
-https://github.com/acelyavul
