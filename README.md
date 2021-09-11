@@ -8,8 +8,6 @@ It is to build out this introductory component and get it looking as close to th
 
 ![webpage](https://user-images.githubusercontent.com/88436030/132941997-2a0c4acd-6074-4825-a523-71ff5ccc6a94.png)
 
-<br/>
-
 ## Build with
 
 - Semantic HTML5 markup
@@ -17,14 +15,10 @@ It is to build out this introductory component and get it looking as close to th
 - Flexbox
 - ReactJs
 
-<br/>
-
 ## Deployment
 
 - Solution URL:
 - Live URL:
-
-<br/>
 
 ## Installation
 
@@ -46,8 +40,6 @@ yarn install
 ```sh
 yarn start
 ```
-
-<br/>
 
 ## Meta
 
