@@ -29,7 +29,7 @@ It is to build out this introductory component and get it looking as close to th
 https://github.com/acelyavul/frontendmentor_intro-component-with-signup-form.git
 ```
 
-2. Install all the dependencies
+2. Install all the dependencies inside the project folder
 
 ```sh
 yarn install
