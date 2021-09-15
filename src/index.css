@@ -50,6 +50,7 @@ h1 {
 	border: none;
 	background-color: var(--blue);
 	color: white;
+	font-family: inherit;
 	width: 100%;
 	padding: 1rem;
 	font-size: 16px;
@@ -110,6 +111,7 @@ button[type="button"] {
 	border: none;
 	width: 85%;
 	font-size: 14px;
+	font-family: inherit;
 	color: white;
 	background-color: var(--green);
 	padding: 0.9rem;
