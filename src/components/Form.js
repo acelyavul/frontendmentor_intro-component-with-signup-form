@@ -29,7 +29,7 @@ const Form = () => {
 				inputs
 					.reduce((a, e, i) => (e.value === "" ? a.concat(i) : a), [])
 					.forEach(i => errorTexts[i].classList.remove("hidden"));
-			} else if (el.value !== "") {
+			} else {
 				el.classList.remove("error");
 				el.nextSibling.classList.add("hidden");
 				inputs
