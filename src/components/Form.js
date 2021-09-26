@@ -16,34 +16,34 @@ const Form = () => {
 	};
 
 	const clickHandler = () => {
-		const errorMessageEl = document.getElementsByClassName("error-text");
-		const formValueEl = document.getElementsByClassName("form_value");
-		const emailAdress = formValueEl[2].value;
+		const errorTexts = [...document.querySelectorAll(".error-text")];
+		const inputs = [...document.querySelectorAll(".form_value")];
+		const emailAdress = inputs[2].value;
 		const isValid = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
 
-		const values = [];
-		for (let i = 0; i < formValueEl.length; i++) {
-			values[i] = formValueEl[i].value;
-		}
-
-		for (let i = 0; i < errorMessageEl.length; i++) {
-			if (values[i] === "") {
-				errorMessageEl[i].classList.remove("hidden");
-				formValueEl[i].nextSibling.classList.remove("hidden");
-				formValueEl[i].classList.add("error");
-				formValueEl[i].placeholder = "";
-			} else {
-				errorMessageEl[i].classList.add("hidden");
-				formValueEl[i].nextSibling.classList.add("hidden");
-				formValueEl[i].classList.remove("error");
+		inputs.filter(el => {
+			if (el.value === "") {
+				el.classList.add("error");
+				el.nextSibling.classList.remove("hidden");
+				el.placeholder = "";
+				inputs
+					.reduce((a, e, i) => (e.value === "" ? a.concat(i) : a), [])
+					.forEach(i => errorTexts[i].classList.remove("hidden"));
+			} else if (el.value !== "") {
+				el.classList.remove("error");
+				el.nextSibling.classList.add("hidden");
+				inputs
+					.reduce((a, e, i) => (e.value !== "" ? a.concat(i) : a), [])
+					.forEach(i => errorTexts[i].classList.add("hidden"));
 			}
-		}
+			return el;
+		});
 
 		if (!isValid.test(emailAdress)) {
-			errorMessageEl[2].classList.remove("hidden");
-			formValueEl[2].nextSibling.classList.remove("hidden");
-			formValueEl[2].classList.add("error");
-			formValueEl[2].placeholder = "email@example/com";
+			errorTexts[2].classList.remove("hidden");
+			inputs[2].nextSibling.classList.remove("hidden");
+			inputs[2].classList.add("error");
+			inputs[2].placeholder = "email@example/com";
 		}
 	};
 
