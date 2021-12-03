@@ -41,7 +41,7 @@ https://github.com/acelyavul/frontendmentor_intro-component-with-signup-form.git
 2. Install all the dependencies inside the project folder
 
 ```sh
-yarn install
+yarn
 ```
 
 3. Start the project
