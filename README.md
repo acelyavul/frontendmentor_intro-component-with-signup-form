@@ -47,9 +47,14 @@ yarn
 3. Start the project
 
 ```sh
-yarn start
+yarn start 
 ```
 
+4. Run test
+
+```sh
+yarn test 
+```
 ## Author
 
 - Frontend Mentor - [@acelyavul](https://www.frontendmentor.io/profile/acelyavul)
